@@ -36,7 +36,7 @@ network.xml:
 
 Define and enable the network:
 
-```bash
+```
 $ virsh net-define --file network.xml
 $ virsh net-start dev
 $ virsh net-autostart dev
@@ -56,7 +56,7 @@ Background the install and force reboot on completion.
 > can use '--wait' to keep virt-install alive even if --noautoconsole is
 > specified.
 
-```bash
+```
 $ virt-install \
 --name myhost \
 --hvm \
