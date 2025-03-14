@@ -1,5 +1,3 @@
-> ~dxm
-
 ## Notes
 
 * [alma](/alma.md)
